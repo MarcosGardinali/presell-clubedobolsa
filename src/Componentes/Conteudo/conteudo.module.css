@@ -1,0 +1,77 @@
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://bolsastart.com/clube/wp-content/uploads/2023/04/hero-club-bg.jpg);
+    background-size: cover;
+    min-height: 900px;
+    padding-top: 2%;
+}
+
+.container__titulos__imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15%;
+}
+
+.container__titulo__logo{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo__clube{
+    width: 243px;
+}
+
+.conteudo h1{
+    max-width: 100%;
+    line-height: 1.4;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.conteudo h2{
+    max-width: 70%;
+    line-height: 1.4;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.conteudo strong{
+    color: #f9c533;
+}
+
+.imagem{
+    width: 550px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container__titulos__imagem{
+        flex-direction: column;
+        gap: 2rem;
+        padding: 0 1rem;
+    }
+}
+
+
+/*Reponsividade mobile*/
+@media only screen and (max-width: 767px) {
+    .container__titulos__imagem{
+        flex-direction: column;
+        gap: 1rem;
+        padding: 0 1rem;
+    }
+
+    .container__titulo__logo{
+        align-items: center;
+    }
+
+    .conteudo h2{
+        max-width: 85%;
+    }
+
+    .imagem{
+        width: 350px;
+    }
+}
