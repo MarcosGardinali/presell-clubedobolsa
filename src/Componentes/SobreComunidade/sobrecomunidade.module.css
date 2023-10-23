@@ -1,0 +1,69 @@
+.conteudo__sobre__comunidade{
+    background-image: linear-gradient(180deg, #132f1a, #25562e);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.conteudo__sobre__comunidade__cards{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 3% 0;
+}
+
+.card{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.7);
+    background-image: linear-gradient(#ffffff, #b5b5b5);
+    color: #258e3f;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    width: 15%;
+}
+
+.card h2{
+    margin: 0;
+}
+
+.lista__comunidade__detalhes{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    gap: 2rem;
+}
+
+.lista__comunidade__detalhes p{
+    color: #f9c533;   
+    font-size: 1.9rem;
+    font-weight: 600;
+    max-width: 55%;
+}
+
+/*Reponsividade mobile*/
+@media only screen and (max-width: 767px) {
+    .conteudo__sobre__comunidade__cards{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        margin: 2rem 0;
+    }
+
+    .card{
+        width: 50%;
+    }
+
+    .lista__comunidade__detalhes p{
+        font-size: 1.3rem;
+        max-width: 70%;
+    }
+}

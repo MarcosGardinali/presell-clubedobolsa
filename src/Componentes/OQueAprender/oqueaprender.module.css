@@ -1,0 +1,59 @@
+.conteudo__aprender{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #fcfcfc;
+}
+
+.conteudo__aprender h3{
+    color: #f9c533;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3.2rem;
+    width: 25%;
+}
+
+.container__textos__imagens__aprender{
+    display: flex;
+    justify-content: center;
+}
+
+.container__textos__aprender{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.container__textos__aprender h4{
+    font-size: 1.8rem;
+    color: #258e3f;
+}
+
+.container__textos__aprender p{
+    font-size: 1.3rem;
+    width: 90%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .conteudo__aprender h3{
+        width: 75%;
+    }
+}
+
+/*Reponsividade mobile*/
+@media only screen and (max-width: 767px) {
+
+    .conteudo__aprender h3{
+        font-size: 2.5rem;
+    }
+
+    .container__textos__imagens__aprender{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container__textos__aprender{
+        width: 85%;
+    }
+}

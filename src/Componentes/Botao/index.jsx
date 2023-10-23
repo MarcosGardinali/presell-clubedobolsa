@@ -1,8 +1,8 @@
 import React from 'react'
 import style from './botao.module.css'
 
-export default function Botao() {
+export default function Botao({children}) {
   return (
-    <a href="https://kiwify.app/NnZf5VO?afid=cxFjPLur" className={style.botao}>IR PARA O SITE OFICIAL</a>
+    <a href="https://pay.kiwify.com.br/VdG5Ipf?afid=cxFjPLur" className={style.botao}>{children}</a>
   )
 }

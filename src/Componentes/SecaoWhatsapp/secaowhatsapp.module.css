@@ -1,0 +1,61 @@
+.conteudo__secao__whatsapp{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    gap: 2rem;
+}
+
+.conteudo__secao__whatsapp img{
+    width: 28%;
+}
+
+.textos__secao__whatsapp{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.textos__secao__whatsapp h4{
+    font-size: 2.8rem;
+    color: #258e3f;
+}
+
+.textos__secao__whatsapp{
+    font-size: 1.3rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .conteudo__secao__whatsapp{
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .conteudo__secao__whatsapp img{
+        width: 80%;
+    }
+
+    .textos__secao__whatsapp{
+        width: 85%;
+    }
+}
+
+/*Reponsividade mobile*/
+@media only screen and (max-width: 767px) {
+    .conteudo__secao__whatsapp{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteudo__secao__whatsapp img{
+        width: 90%;
+    }
+
+    .textos__secao__whatsapp{
+        width: 85%;
+        text-align: center;
+    }
+}

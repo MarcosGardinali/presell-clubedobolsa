@@ -1,0 +1,59 @@
+.conteudo__professor{
+    padding-top: 1.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #011e11;
+}
+
+.conteudo__professor h3{
+    color: #14ff50;
+    font-size: 2.8rem;
+    width: 30%;
+    text-align: center;
+}
+
+.container__textos__professor{
+    display: flex;
+    width: 80%;
+    align-items: center;
+}
+
+.container__professor__textos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.container__textos__professor img{
+    width: 30%;
+}
+
+.container__professor__textos p{
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .conteudo__professor h3{
+        width: 80%;
+    }
+}
+
+/*Reponsividade mobile*/
+@media only screen and (max-width: 767px) {
+    .conteudo__professor h3{
+        width: 90%;
+    }
+
+    .container__textos__professor{
+        flex-direction: column-reverse;
+    }
+
+    .container__textos__professor img{
+        width: 75%;
+    }
+}

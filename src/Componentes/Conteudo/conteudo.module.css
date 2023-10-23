@@ -3,9 +3,9 @@
     flex-direction: column;
     align-items: center;
     background-image: url(https://bolsastart.com/clube/wp-content/uploads/2023/04/hero-club-bg.jpg);
-    background-size: cover;
+    background-size: contain;
     min-height: 900px;
-    padding-top: 2%;
+    padding-top: 1%;
 }
 
 .container__titulos__imagem{
@@ -27,14 +27,14 @@
 .conteudo h1{
     max-width: 100%;
     line-height: 1.4;
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     color: white;
 }
 
 .conteudo h2{
     max-width: 70%;
     line-height: 1.4;
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     color: white;
 }
 
@@ -43,10 +43,20 @@
 }
 
 .imagem{
-    width: 550px;
+    width: 515px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .conteudo{
+        padding-top: 2%;
+        background-size: cover;
+    }
+
+    .container__titulo__logo{
+        align-items: center;
+    }
+
     .container__titulos__imagem{
         flex-direction: column;
         gap: 2rem;
@@ -57,6 +67,15 @@
 
 /*Reponsividade mobile*/
 @media only screen and (max-width: 767px) {
+
+    .conteudo{
+        background-size: cover;
+    }
+
+    .container__titulo__logo{
+        align-items: center;
+    }
+
     .container__titulos__imagem{
         flex-direction: column;
         gap: 1rem;
